@@ -6,6 +6,8 @@
         "fcntl.h": "c",
         "stdio.h": "c",
         "locale": "c",
-        "string.h": "c"
+        "string.h": "c",
+        "types.h": "c",
+        "time.h": "c"
     }
 }

@@ -8,3 +8,9 @@ File_mgmt/temp/seekfile.txt
 File_mgmt/temp/softlink_file
 File_mgmt/temp/temp_file
 File_mgmt/temp/ticket.txt
+Proc_mgmt/p22_from_p26
+Proc_mgmt/a.out
+Proc_mgmt/loop
+Proc_mgmt/temp/fork_test.txt
+Proc_mgmt/temp/pc_test.txt
+Proc_mgmt/temp/testfile.txt
