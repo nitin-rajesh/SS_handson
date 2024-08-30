@@ -8,6 +8,7 @@
         "locale": "c",
         "string.h": "c",
         "types.h": "c",
-        "time.h": "c"
+        "time.h": "c",
+        "sched.h": "c"
     }
 }

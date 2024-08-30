@@ -2,12 +2,18 @@
 #include<unistd.h>  
 #include<sys/types.h>  
 #include<time.h>
+
+unsigned long long rdtsc(){
+    unsigned long long dst;
+    __asm__ __volatile__ ("rdtsc":"=A" (dst));
+    //volatile gets value from memory address instead of optimising
+}
   
 int main(){  
-    clock_t start = clock();
+    clock_t start = rdtsc();
     pid_t pId = getpid();  
-    clock_t stop = clock();
-    double rt_diff = (stop - start)*1000000./CLOCKS_PER_SEC;
-    printf("Current PID: %d\ngetpid() time: %0.3fµs", pId,rt_diff);  
+    clock_t stop = rdtsc();
+    long long rt_diff = (stop - start);
+    printf("Current PID: %d\ngetpid() time: %lld ns", pId,rt_diff);  
     return 0;  
 }  

@@ -15,4 +15,4 @@ mknod myfifo_file p
 echo "Hello there" > myfifo_file &
 cat myfifo_file
 ls -li 
-rm hardlink_file softlink_file temp_file myfifo_file
+# rm hardlink_file softlink_file temp_file myfifo_file
