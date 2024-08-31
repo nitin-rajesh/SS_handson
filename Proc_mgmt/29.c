@@ -33,10 +33,27 @@ int main(){
             break;
     }
 
+    struct sched_param param;
+    int policy = SCHED_FIFO;
+
+    param.sched_priority = 10;
+
+    if (sched_setscheduler(0, policy, &param) == -1) {
+        perror("sched_setscheduler");
+        exit(EXIT_FAILURE);
+    }
+
+    printf("Scheduler set to SCHED_FIFO with priority %d\n", param.sched_priority);
+
 }
 
 /*
 parallels@parallels-Parallels-Virtual-Platform:~/Documents/Code$ ./a.out 
-Max real-time priority: 99
-Min real-time priority: 1
+Current scheduling policy: SCHED_OTHER
+sched_setscheduler: Operation not permitted
+
+parallels@parallels-Parallels-Virtual-Platform:~/Documents/Code$ sudo ./a.out 
+[sudo] password for parallels:        
+Current scheduling policy: SCHED_OTHER
+Scheduler set to SCHED_FIFO with priority 10
 */
