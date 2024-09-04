@@ -24,7 +24,7 @@ int main(){
         return -1;
 
     char randBytes[10] = "First ten";
-    char fileBytes[10] = "Next ten.";
+    char fileBytes[10] = "Next ten";
 
     int bytesOut = write(fd,randBytes,10);
 

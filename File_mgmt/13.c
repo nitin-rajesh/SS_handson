@@ -24,7 +24,7 @@ int main(){
     FD_SET(STDIN_FILENO, &readfds);
 
     // Use select to wait for input on STDIN
-    ret = select(STDIN_FILENO + 1, &readfds, NULL, NULL, &timeout);
+    ret = select(1, &readfds, NULL, NULL, &timeout);
 
     if (ret == -1) {
         return 1;

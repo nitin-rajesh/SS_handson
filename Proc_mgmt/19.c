@@ -20,11 +20,11 @@ unsigned long long rdtsc(){
 int main(){  
     clock_t start = clock();
     pid_t pId;
-    for(int i = 0; i < 128; i++)
+    for(int i = 0; i < 256; i++)
         pId = getpid();  
 
     clock_t stop = clock();
-    double rt_diff = (stop - start)*1000000./CLOCK_MONOTONIC;
+    double rt_diff = (stop - start)*1000000./CLOCKS_PER_SEC;
     printf("Current PID: %d\ngetpid() time for 128 calls: %0.3f µs", pId,rt_diff);  
     return 0;  
 }  
