@@ -11,5 +11,5 @@ ps -efj | grep a.out
 
 # Output: 
 # nitinrajesh@Nitins-MacBook-Pro Proc_mgmt % ./p24_shell.sh 
-#   501 53492     1   0  4:36PM ttys005    0:00.00 ./a.out          nitinrajesh      53486      0    1 SN+  s005 
-#   501 53496 53486   0  4:36PM ttys005    0:00.00 grep a.out       nitinrajesh      53486      0    1 R+   s005 
+#   501 59831     1   0 Sat04PM ??         0:00.60 ./a.out          nitinrajesh      59813      0    0 S      ?? 
+#   501 97736 55433   0 10:17PM ttys012    0:00.00 grep a.out       nitinrajesh      97735      0    2 R+   s012 

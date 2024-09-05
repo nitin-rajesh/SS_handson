@@ -2,7 +2,11 @@
 #include<unistd.h>  
 #include<sys/types.h>  
 #include<time.h>
+#include<unistd.h>
   
 int main(){  
-    for(unsigned int i = 0; i < 0xFFFFFFFF; i++);
+    getchar();
+    nice(5);
+    for(long i = 0; i < 0xFFFFFFFFF; i++);
+
 }  
