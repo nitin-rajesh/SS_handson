@@ -1,3 +1,11 @@
+/* Name: Nitin Kumar Rajesh
+ * Reg no: MT2024103
+ * Date: 19 September 2024
+ * Problem 17: Write a program to execute ls -l | wc.
+    a. use dup
+    b. use dup2
+    c. use fcntl
+*/
 #include<stdio.h>
 #include<unistd.h>
 #include<stdlib.h>

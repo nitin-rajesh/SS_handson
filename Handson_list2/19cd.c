@@ -1,10 +1,12 @@
 /* Name: Nitin Kumar Rajesh
  * Reg no: MT2024103
- * Date: 22 August 2024
- * Problem 1: Create the following types of a files using (i) shell command (ii) system call
-    a. soft link (symlink system call)
-    b. hard link (link system call)
-    c. FIFO (mkfifo Library Function or mknod system call)
+ * Date: 19 September 2024
+ * Problem 19: Create a FIFO file by
+    a. mknod command
+    b. mkfifo command
+    c. use strace command to find out, which command (mknod or mkfifo) is better.
+    c. mknod system call
+    d. mkfifo library function
 */
 
 #include<stdio.h>

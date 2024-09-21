@@ -1,3 +1,9 @@
+/* Name: Nitin Kumar Rajesh
+ * Reg no: MT2024103
+ * Date: 12 September 2024
+ * Problem 2: Write a program to print the system resource limits. Use getrlimit system call.
+*/
+
 #include<stdio.h>
 #include<stdlib.h>
 #include<sys/resource.h>

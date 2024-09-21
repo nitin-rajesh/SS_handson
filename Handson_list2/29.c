@@ -1,3 +1,8 @@
+/* Name: Nitin Kumar Rajesh
+ * Reg no: MT2024103
+ * Date: 21 September 2024
+ * Problem 29:  Write a program to remove the message queue.
+*/
 #include<stdio.h>
 #include<stdlib.h>
 #include<sys/ipc.h>

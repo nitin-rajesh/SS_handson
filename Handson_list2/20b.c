@@ -1,3 +1,9 @@
+/* Name: Nitin Kumar Rajesh
+ * Reg no: MT2024103
+ * Date: 20 September 2024
+ * Problem 20: Write two programs so that both can communicate by FIFO 
+ * -Use one way communication
+*/
 #include<stdio.h>
 #include<stdlib.h>
 #include<unistd.h>

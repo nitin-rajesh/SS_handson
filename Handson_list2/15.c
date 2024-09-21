@@ -1,3 +1,9 @@
+/* Name: Nitin Kumar Rajesh
+ * Reg no: MT2024103
+ * Date: 19 September 2024
+ * Problem 15: Write a simple program to send some data from parent to the child process.
+*/
+
 #include<stdio.h>
 #include<unistd.h>
 #include<stdlib.h>

@@ -1,3 +1,10 @@
+/* Name: Nitin Kumar Rajesh
+ * Reg no: MT2024103
+ * Date: 21 September 2024
+ * Problem 31:  Write a program to create a semaphore and initialize value to the semaphore.
+    a. create a binary semaphore
+    b. create a counting semaphore
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/ipc.h>

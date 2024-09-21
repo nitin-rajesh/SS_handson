@@ -1,3 +1,8 @@
+/* Name: Nitin Kumar Rajesh
+ * Reg no: MT2024103
+ * Date: 20 September 2024
+ * Problem 24:  Write a program to create a message queue and print the key and message queue id.
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/ipc.h>

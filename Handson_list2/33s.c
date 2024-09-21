@@ -1,3 +1,8 @@
+/* Name: Nitin Kumar Rajesh
+ * Reg no: MT2024103
+ * Date: 21 September 2024
+ * Problem 33:  Write a program to communicate between two machines using socket.
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

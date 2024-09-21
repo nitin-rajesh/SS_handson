@@ -1,3 +1,9 @@
+/* Name: Nitin Kumar Rajesh
+ * Reg no: MT2024103
+ * Date: 19 September 2024
+ * Problem 16: Write a program to send and receive data from parent to child vice versa. Use two way
+communication.
+*/
 #include<stdio.h>
 #include<unistd.h>
 #include<stdlib.h>

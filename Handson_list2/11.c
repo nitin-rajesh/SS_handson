@@ -1,3 +1,9 @@
+/* Name: Nitin Kumar Rajesh
+ * Reg no: MT2024103
+ * Date: 19 September 2024
+ * Problem 11: Write a program to ignore a SIGINT signal then reset the default action of the SIGINT signal -
+use sigaction system call.
+*/
 #include<stdio.h>
 #include<stdlib.h>
 #include<signal.h>

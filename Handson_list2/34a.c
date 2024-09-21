@@ -1,3 +1,10 @@
+/* Name: Nitin Kumar Rajesh
+ * Reg no: MT2024103
+ * Date: 21 September 2024
+ * Problem 34:  Write a program to create a concurrent server.
+    a. use fork
+    b. use pthread_create
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

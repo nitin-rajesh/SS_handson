@@ -1,3 +1,9 @@
+/* Name: Nitin Kumar Rajesh
+ * Reg no: MT2024103
+ * Date: 21 September 2024
+ * Problem 28:  Write a program to change the exiting message queue permission. 
+ * (use msqid_ds structure)
+*/
 #include<stdio.h>
 #include<stdlib.h>
 #include<sys/ipc.h>

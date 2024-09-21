@@ -1,4 +1,14 @@
 #! /bin/zsh
+#  * Name: Nitin Kumar Rajesh
+#  * Reg no: MT2024103
+#  * Date: 19 September 2024
+#  * Problem 19: Create a FIFO file by
+# a. mknod command
+# b. mkfifo command
+# c. use strace command to find out, which command (mknod or mkfifo) is better.
+# c. mknod system call
+# d. mkfifo library function
+
 cd temp
 mknod nodpipe p
 mkfifo fifopipe

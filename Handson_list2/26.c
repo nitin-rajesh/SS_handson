@@ -1,3 +1,8 @@
+/* Name: Nitin Kumar Rajesh
+ * Reg no: MT2024103
+ * Date: 21 September 2024
+ * Problem 26:  Write a program to send messages to the message queue. Check $ipcs -q
+*/
 #include<stdio.h>
 #include<stdlib.h>
 #include<sys/ipc.h>

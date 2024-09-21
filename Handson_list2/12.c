@@ -1,3 +1,10 @@
+/* Name: Nitin Kumar Rajesh
+ * Reg no: MT2024103
+ * Date: 19 September 2024
+ * Problem 12: Write a program to create an orphan process. Use kill system call to send SIGKILL signal to
+the parent process from the child process.
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>

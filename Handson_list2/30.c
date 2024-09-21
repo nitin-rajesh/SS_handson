@@ -1,3 +1,12 @@
+/* Name: Nitin Kumar Rajesh
+ * Reg no: MT2024103
+ * Date: 21 September 2024
+ * Problem 30:  Write a program to create a shared memory.
+    a. write some data to the shared memory
+    b. attach with O_RDONLY and check whether you are able to overwrite.
+    c. detach the shared memory
+    d. remove the shared memory
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

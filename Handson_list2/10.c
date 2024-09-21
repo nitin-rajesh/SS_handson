@@ -1,3 +1,12 @@
+/* Name: Nitin Kumar Rajesh
+ * Reg no: MT2024103
+ * Date: 17 September 2024
+ * Problem 10: Write a separate program using sigaction system call to catch the following signals.
+    a. SIGSEGV
+    b. SIGINT
+    c. SIGFPE
+*/
+
 #include<stdio.h>
 #include<stdlib.h>
 #include<signal.h>

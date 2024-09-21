@@ -1,3 +1,9 @@
+/* Name: Nitin Kumar Rajesh
+ * Reg no: MT2024103
+ * Date: 19 September 2024
+ * Problem 18: Write a program to find out total number of directories on the pwd.
+execute ls -l | grep ^d | wc ? Use only dup2.
+*/
 #include<stdio.h>
 #include<unistd.h>
 #include<stdlib.h>

@@ -1,3 +1,10 @@
+/* Name: Nitin Kumar Rajesh
+ * Reg no: MT2024103
+ * Date: 12 September 2024
+ * Problem 3: Write a program to set (any one) system resource limit. 
+ * Use setrlimit system call.
+*/
+
 #include<stdio.h>
 #include<sys/resource.h>
 #include<unistd.h>

@@ -1,3 +1,9 @@
+/* Name: Nitin Kumar Rajesh
+ * Reg no: MT2024103
+ * Date: 17 September 2024
+ * Problem 6: Write a simple program to create three threads.
+*/
+
 #include<stdio.h>
 #include<stdlib.h>
 #include<pthread.h>

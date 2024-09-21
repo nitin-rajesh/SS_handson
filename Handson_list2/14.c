@@ -1,3 +1,10 @@
+/* Name: Nitin Kumar Rajesh
+ * Reg no: MT2024103
+ * Date: 19 September 2024
+ * Problem 14: Write a simple program to create a pipe, write to the pipe, read from pipe and display on
+the monitor.
+*/
+
 #include<stdio.h>
 #include<unistd.h>
 #include<stdlib.h>

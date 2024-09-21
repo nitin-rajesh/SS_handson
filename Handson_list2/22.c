@@ -1,3 +1,9 @@
+/* Name: Nitin Kumar Rajesh
+ * Reg no: MT2024103
+ * Date: 20 September 2024
+ * Problem 22: Write a program to wait for data to be written into FIFO within 10 seconds, use select
+system call with FIFO.
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>

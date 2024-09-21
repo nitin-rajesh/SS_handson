@@ -1,3 +1,10 @@
+/* Name: Nitin Kumar Rajesh
+ * Reg no: MT2024103
+ * Date: 12 September 2024
+ * Problem 4: Write a program to measure how much time is taken to execute 100 getppid ( )
+system call. Use time stamp counter.
+*/
+
 #include<stdio.h>
 #include<unistd.h>
 #include<time.h>

@@ -1,3 +1,10 @@
+/* Name: Nitin Kumar Rajesh
+ * Reg no: MT2024103
+ * Date: 21 September 2024
+ * Problem 27:  Write a program to receive messages from the message queue.
+    a. with 0 as a flag
+    b. with IPC_NOWAIT as a flag
+*/
 #include<stdio.h>
 #include<stdlib.h>
 #include<sys/ipc.h>
