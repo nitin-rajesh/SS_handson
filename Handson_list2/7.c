@@ -3,7 +3,7 @@
 #include<pthread.h>
 
 // Thread function that will be executed by each thread
-void* thread_function(void* arg) {
+void* thread_function(void* arg){
     int thread_id = *((int*)arg);  // Extract the thread ID
     printf("Thread ID %d is running.\n", thread_id);
     pthread_exit(NULL);  // Terminate the thread
@@ -22,9 +22,9 @@ int main(){
         }
     }
 
-    for (int i = 0; i < 3; i++) {
+    for (int i = 0; i < 3; i++) 
         pthread_join(threads[i], NULL);
-    }
+
 
     printf("Threads complete.\n");
 

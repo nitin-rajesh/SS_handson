@@ -9,6 +9,7 @@
         "string.h": "c",
         "types.h": "c",
         "time.h": "c",
-        "sched.h": "c"
+        "sched.h": "c",
+        "errno.h": "c"
     }
 }

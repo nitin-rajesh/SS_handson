@@ -21,7 +21,7 @@ void signal_handler(int signal_num) {
     }
 }
 
-int main(int argc, char *argv[]) {
+int main(int argc, char *argv[]){
     struct sigaction sigact;
 
     if(argc < 2){

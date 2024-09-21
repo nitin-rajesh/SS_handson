@@ -4,7 +4,7 @@
 #include<unistd.h>
 #include<sys/time.h>
 
-void signal_handler(int signal_num) {    
+void signal_handler(int signal_num){    
     switch (signal_num) {
         case SIGSEGV:
             printf("Caught SIGSEGV: Segmentation fault\n");
@@ -30,7 +30,7 @@ void signal_handler(int signal_num) {
     }
 }
 
-int main(int argc, char *argv[]) {
+int main(int argc, char *argv[]){
     // Register signal handler for various signals
     if(argc < 2){
         printf("Format: %s <sig option[1-6]>",argv[0]);
